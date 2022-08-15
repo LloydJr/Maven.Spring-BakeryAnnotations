@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class BakerService {
-
     private BakerRepository repository;
 
     public BakerService(BakerRepository repository) {

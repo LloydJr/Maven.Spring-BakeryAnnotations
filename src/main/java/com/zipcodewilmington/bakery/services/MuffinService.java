@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class MuffinService {
-
     private MuffinRepository repository;
 
     public MuffinService(MuffinRepository repository) {
